@@ -1,0 +1,33 @@
+{
+    "name": "checkoutweb/sdk",
+    "description": "Checkoutweb pack sdk",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "checkoutweb\\sdk\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "checkoutweb\\sdk\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers":[
+                "checkoutweb\\sdk\\PacoteTesteBaseServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Jordan XP",
+            "email": "jordan@xpdeal.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.3|^8.0",
+        "orchestra/testbench": "^7.0@dev"
+    }
+}
